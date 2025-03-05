@@ -2,7 +2,7 @@
 
 import re
 
-def is_valid_phone_number(phone):
+def valid_phone_number(phone):
 
     # Define the regular expression pattern
     pattern = r"^\(\d{3}\) \d{3}-\d{4}$"
@@ -14,5 +14,5 @@ def is_valid_phone_number(phone):
         return False
 
 # Input:
-print(is_valid_phone_number("(123) 456-7890"))  
-print(is_valid_phone_number("123-456-7890")) 
+print(valid_phone_number("(123) 456-7890"))  
+print(valid_phone_number("123-456-7890")) 
